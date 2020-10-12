@@ -9,14 +9,12 @@ type Props = {
 
 const Layout: FC<Props> = (props) => {
   return (
-    <Provider>
       <div className={styles.container}>  
         <Header />
         <div className={styles.wrapper}>
           {props.children}
         </div>
       </div>
-    </Provider>
   );
 }
 
