@@ -1,12 +1,4 @@
 import React, { FC, useState } from 'react';
-import nosukeMemo1 from './img/nosukeMemo1.jpg';
-import nosukeMemo2 from './img/nosukeMemo2.jpg';
-import chatAPP1 from './img/chatAPP1.jpg';
-import chatAPP2 from './img/chatAPP2.jpg';
-import othello1 from './img/othello1.png';
-import othello2 from './img/othello2.png';
-import weather1 from './img/weather1.png';
-import weather2 from './img/weather2.png';
 import MediaQuery from "react-responsive";
 import Output from '../templates/PC_Components/Output';
 import OutputSub from '../templates/PC_Components/OutputSub';
@@ -15,22 +7,22 @@ import OutputMob from '../templates/MobileComponents/OutputMob';
 const contents=[
   {
     id: 0, name: '気象情報 App（現在制作中）', url: 'https://next-app-theta.vercel.app/', 
-    img1: weather1, img2: weather2,
+    img1: '/images/weather1.png', img2: '/images/weather2.png',
     text: '外部APIとNext.jsを用いた開発練習 (Next.js, TypeScript, React.js, 気象情報API: OpenWeather)'
   },
   {
     id: 1, name: 'オセロゲーム', url: 'https://shinnosuke7031.github.io/OthelloGame-ToStudy-React-TypeScript/', 
-    img1: othello1, img2: othello2,
+    img1: '/images/othello1.png', img2: '/images/othello2.png',
     text: 'Reactの公式チュートリアル(三目並べ)をTypeScript化させ、オセロに改造 (React.js, Redux, TypeScript)'
   },
   {
     id: 2, name: '掲示板 App', url: 'http://test-nodejs.eba-fwryman3.ap-northeast-1.elasticbeanstalk.com/', 
-    img1: chatAPP1, img2: chatAPP2,
+    img1: '/images/chatAPP1.jpg', img2: '/images/chatAPP2.jpg',
     text: 'AWS-EB, RDSを用いて作成した掲示板APP (React.js, Node.js, MySQL)'
   },
   {
     id: 3, name: 'Memo App (現在公開していません)', url: '#', 
-    img1: nosukeMemo2, img2: nosukeMemo1,
+    img1: '/images/nosukeMemo2.jpg', img2: '/images/nosukeMemo1.jpg',
     text: '初めて作ったアプリケーション (HTML/CSS, Node.js, MySQL)'
   },
 ]
