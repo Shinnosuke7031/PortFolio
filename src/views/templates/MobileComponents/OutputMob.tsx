@@ -18,8 +18,8 @@ const OutputMob: FC<PortfolioProps> = (props) => {
         <a href={content.url} target="_blank" rel="noopener noreferrer">
           <img alt={content.name} src={content.img1} style={{width: "100%"}}/>
         </a>
-        <div className={styles.back_icon} onClick={onClickBack}><NavigateBeforeIcon style={{fontSize: '100px'}}/></div>
-        <div className={styles.next_icon} onClick={onClickNext}><NavigateNextIcon style={{fontSize: '100px'}}/></div>
+        <div className={styles.back_icon} onClick={onClickBack}><NavigateBeforeIcon style={{fontSize: '50px'}}/></div>
+        <div className={styles.next_icon} onClick={onClickNext}><NavigateNextIcon style={{fontSize: '50px'}}/></div>
       </div>
     </React.Fragment>
   );
