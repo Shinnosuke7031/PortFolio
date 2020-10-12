@@ -1,4 +1,4 @@
-Reactを使った初めてのアウトプットです。-->（ https://shinnosuke7031.github.io/Portfolio_with_React/ ）
+Reactを使った初めてのアウトプットです。
 
 ## アピールポイント
 
