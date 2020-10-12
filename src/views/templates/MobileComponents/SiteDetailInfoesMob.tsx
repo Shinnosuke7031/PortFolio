@@ -15,8 +15,8 @@ const SiteDetailInfoes: FC<SiteDetailProps> = (props) => {
   return (
     <div>
       <h1 className={styles.title}>About Site</h1>
-      <p>最初は、Reactを勉強し始めてから10日で制作したため、ディレクトリ構成やルーティングのことを全く考えていませんでした。</p>
-      <p>そのため、別のアウトプットで新しいことを学んだら、リファクタリングを行い、技術力を高めていきます。</p>
+      <p style={{margin: '0 0 20px 0'}}>最初は、Reactを勉強し始めてから10日で制作したため、ディレクトリ構成やルーティングのことを全く考えていませんでした。</p>
+      <p style={{margin: '20px 0 20px 0'}}>そのため、別のアウトプットで新しいことを学んだら、リファクタリングを行い、技術力を高めていきます。</p>
       {SiteDetail}
     </div>
   );
